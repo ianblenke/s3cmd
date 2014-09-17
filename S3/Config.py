@@ -118,6 +118,7 @@ class Config(object):
     expiry_date = ""
     expiry_prefix = ""
     signature_v2 = False
+    use_path_mode = False
 
     ## Creating a singleton
     def __new__(self, configfile = None, access_key=None, secret_key=None):
